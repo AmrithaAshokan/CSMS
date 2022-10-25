@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>My Taxi | Rent A Car</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html"> 
+                    <img src="assets/logo.png" width="50px" height="50px">
+                    My<span>Taxi</span>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="">About Us</li></a>
+                    <li><a href="booking.html">Book a ride</li></a>
+                    <li><a href="rent.html">Rent a car</li></a>
+                    <li><a href="">Contact Us</li></a>
+                </ul>
+            </nav>
+            <a class="login" href="">Login</a>
+        </header>
+        <section class="booking-sec">
+        <form>
+            <h4>Rent<span>Taxi</span></h4>
+            <table cellspacing="8" cellpadding="6">
+                <tr>
+                    <td>
+                        <label for="days">DAYS</label>
+                    </td>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" min="1" max="15">
+                    </td>
+                </tr>               
+                <tr>
+                    <td>
+                        <label for="date">DATE</label>
+                    </td>
+                    <td>
+                        <input type="date" id ="date" name="date" placeholder="Choose start date">
+                    </td>
+                </tr>   
+                <tr>
+                    <td>
+                        <label for="carmodel">CAR MODEL</label>
+                    </td>
+                    <td>
+                        <select name="cars" id="cars">
+                            <option value="Suzki">Maruthi Suzki Celerio</option>
+                            <option value="Mahindra">Mahindra Marazzo</option>
+                            <option value="Toyota">Toyota Innova</option>
+                            <option value="Hyundai">Hyundai Grand i10 Nios</option>
+                          </select>
+                    </td>
+                </tr>                          
+            </table>
+            <button type="submit">Submit</button>
+        </form>
+        <img>
+        </section>
+    </body>
+</html>

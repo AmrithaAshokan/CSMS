@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d0d0d;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+body header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+body header nav ul li {
+  margin: 2em;
+  font-family: poppins;
+  font-weight: 300;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body header nav ul li a:hover {
+  color: yellow;
+}
+body header h1 {
+  font-family: poppins;
+}
+body header h1 a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+body header h1 a img {
+  margin-bottom: -15px;
+  width: 50px;
+  height: 50px;
+}
+body header h1 a span {
+  color: yellow;
+  font-style: normal;
+}
+body header .greeting {
+  font-family: Poppins;
+  color: yellow;
+  font-size: 1rem;
+  display: none;
+}
+body header .login {
+  background-color: yellow;
+  color: black;
+  font-family: poppins;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+body marquee {
+  font-size: 2rem;
+}
+body .hero {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2em;
+  padding-top: 1.5em;
+}
+body .hero img {
+  width: auto;
+  height: 65vh;
+  border-radius: 10px;
+}
+body .hero div {
+  margin: 5em 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .hero div h1 {
+  color: white;
+  font-family: poppins;
+  font-style: italic;
+  font-size: 2.7rem;
+}
+body .hero div p {
+  color: yellow;
+  font-family: poppins;
+  font-size: 1.5rem;
+  padding-bottom: 2em;
+}
+body .hero div a {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  font-family: poppins;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+body .booking-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+body .booking-sec form {
+  background-color: rgba(59, 58, 58, 0.258);
+  border-radius: 10px;
+  width: 40%;
+  font-family: poppins;
+  padding: 5em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .booking-sec form h4 {
+  color: yellow;
+  font-family: poppins;
+  font-style: italic;
+  font-size: 2rem;
+}
+body .booking-sec form h4 span {
+  color: white;
+  font-style: normal;
+}
+body .booking-sec form table {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-spacing: 20px;
+}
+body .booking-sec form tr td label {
+  color: white;
+}
+body .booking-sec form tr td input {
+  width: 260px;
+  background-color: #0d0d0d;
+  color: white;
+  outline: none;
+  padding: 5px 1em;
+  border: 1px dashed white;
+  border-radius: 3px;
+}
+body .booking-sec form tr td select {
+  width: 260px;
+  height: 25px;
+  border: 1px dashed white;
+  background-color: #0d0d0d;
+  color: white;
+  border-radius: 3px;
+}
+body .booking-sec form button {
+  background-color: yellow;
+  padding: 7px 15px;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+}
+body .booking-sec iframe {
+  border-radius: 5px;
+}
+body .booking-sec img {
+  width: 50vw;
+  height: 68vh;
+  -webkit-animation: cars 6s infinite;
+          animation: cars 6s infinite;
+  border-radius: 10px;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-page .login-form {
+  background-color: rgba(59, 58, 58, 0.258);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-page .login-form img {
+  width: 80px;
+  height: auto;
+}
+.login-page .login-form input {
+  width: 280px;
+  height: 25px;
+  margin: 0.5em;
+}
+
+@-webkit-keyframes cars {
+  0% {
+    background-image: url("https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/49114/marazzo-exterior-left-front-three-quarter.jpeg?isig=0&q=75");
+  }
+  50% {
+    background-image: url("https://imgd.aeplcdn.com/664x374/n/9m6mjta_1496299.jpg?q=75");
+  }
+  100% {
+    background-image: url("https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Maruti-Suzuki-Swift-100320211204.jpg&w=730&h=484&q=75&c=1");
+  }
+}
+
+@keyframes cars {
+  0% {
+    background-image: url("https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/49114/marazzo-exterior-left-front-three-quarter.jpeg?isig=0&q=75");
+  }
+  50% {
+    background-image: url("https://imgd.aeplcdn.com/664x374/n/9m6mjta_1496299.jpg?q=75");
+  }
+  100% {
+    background-image: url("https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Maruti-Suzuki-Swift-100320211204.jpg&w=730&h=484&q=75&c=1");
+  }
+}/*# sourceMappingURL=main.css.map */

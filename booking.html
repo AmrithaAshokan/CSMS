@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>My Taxi | Book a ride</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html"> 
+                    <img src="assets/logo.png" width="50px" height="50px">
+                    My<span>Taxi</span>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="">About Us</li></a>
+                    <li><a href="booking.html">Book a ride</li></a>
+                    <li><a href="rent.html">Rent a car</li></a>
+                    <li><a href="">Contact Us</li></a>
+                </ul>
+            </nav>
+            <a class="login" href="">Login</a>
+        </header>
+        <section class="booking-sec">
+        <form>
+            <h4>Book<span>Taxi</span></h4>
+            <table cellspacing="8" cellpadding="6">
+                <tr>
+                    <td>
+                        <label for="from">FROM</label>
+                    </td>
+                    <td>
+                        <input type="text" id ="from" name="from" placeholder="Pick-Up Location">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="to">TO</label>
+                    </td>
+                    <td>
+                        <input type="text" id ="to" name="to" placeholder="Drop-off Location">
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <label for="date">DATE</label>
+                    </td>
+                    <td>
+                        <input type="datetime-local" id ="date" name="date" placeholder="Choose date">
+                    </td>
+                </tr>   
+                <tr>
+                    <td>
+                        <label for="carmodel">CAR MODEL</label>
+                    </td>
+                    <td>
+                        <select name="cars" id="cars">
+                            <option value="Suzki">Maruthi Suzki Celerio</option>
+                            <option value="Mahindra">Mahindra Marazzo</option>
+                            <option value="Toyota">Toyota Innova</option>
+                            <option value="Hyundai">Hyundai Grand i10 Nios</option>
+                          </select>
+                    </td>
+                </tr>                          
+            </table>
+            <button type="submit">Submit</button>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251491.32597856206!2d76.16820315636714!3d9.971183565756174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d08f976f3a9%3A0xe9cdb444f06ed454!2sErnakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1666455275237!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </body>
+</html>
